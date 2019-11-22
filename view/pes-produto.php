@@ -1,10 +1,9 @@
-
 <?php include "view/header.php";?>
 <table class="table">
     <thead>
         <tr>
             <th scope="col"></th>
-            
+            <th scope="col">ID</th>
             <th scope="col">NOME</th>
             <th scope="col">PREÇO</th>
             <th scope="col">SERVIÇO</th>
@@ -16,7 +15,7 @@
         <?php foreach($lista as $produto) { ?>
             <tr>
                 <td><img width="50" src="../View/img/produtos/<?php echo $produto['imagem'] ?>"></td>
-                  
+                <th scope="row"><?php echo $produto['id']?></th>    
                 <td><?php echo $produto['nome']?></td>
                 <td><?php echo number_format($produto['preco'],2,",",".");?></td>
                

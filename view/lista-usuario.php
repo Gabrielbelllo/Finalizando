@@ -1,5 +1,5 @@
 
-<?php include "view/header.php";?>
+<?php include "view/header-adm.php";?>
 <table class="table">
     <thead>
         <tr>

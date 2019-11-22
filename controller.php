@@ -7,7 +7,7 @@
     //model=departamento & action-listar
     require "incluedes/autoload.php";
     
-    $router = $_GET['model'].$_GET['action'];
+    @$router = $_GET['model'].$_GET['action'];
     $view = "";
 
     $url = "http://localhost/carro";
@@ -83,6 +83,8 @@
             // PARTE DO CLIENTE ^^ 
         
           // PARTE DO PRODUTO <> 
+        
+
         case 'produtocadastrar':
             \LOJA\incluedes\Seguranca::restritoAdm();
             $obj = new \LOJA\API\ProdutoCadastrar;
@@ -99,6 +101,8 @@
                 $lista = $obj->lista;
                 $view = "lista-produto.php";
                 break;
+                
+          
             
             // PARTE DO PRODUTO  ^^
 
@@ -166,10 +170,14 @@
                 break;
             
             // PARTE DOS ADMIN ^^
-
+        
+        case 'home':
+            $view = "home.php";
+        break; 
+    
        
         default:
-            $view = "form-cliente.php";
+            $view = "home.php";
         break; 
     }
 

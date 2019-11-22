@@ -1,4 +1,4 @@
-<?php include "view/header.php";?>
+<?php include "view/header-adm.php";?>
 <h1>CADASTRO DO ADMIN</h1>
     
     <form class="form-horizontal" method="post" action="cadastrar" enctype="multipart/form-data">

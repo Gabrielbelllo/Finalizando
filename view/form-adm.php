@@ -1,4 +1,4 @@
-<?php include "view/header.php";?>
+<?php include "view/header-adm.php";?>
 
 <h1>LOGIN DO ADMIN</h1>
     
