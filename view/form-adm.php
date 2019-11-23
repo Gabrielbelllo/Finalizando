@@ -41,4 +41,4 @@
 </form>
 
 
-<?php include "view/footer.php";?>
+<?php include "view/footer-adm.php";?>

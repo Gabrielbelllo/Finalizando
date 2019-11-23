@@ -19,7 +19,7 @@
     <!-- Button trigger modal -->
 
    <p></p>
-    <a class="btn btn-primary" href="http://localhost/carro/painel/logoff">Sair</a>
+    <a class="btn btn-primary" href="http://localhost/carro/paineladm/logoff">Sair</a>
 
 
   
@@ -28,4 +28,4 @@
     
 
 
-<?php include "view/footer.php";?>
+<?php include "view/footer-adm.php";?>

@@ -1,11 +1,12 @@
 <?php include "view/mensagem.php"; ?>
 <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <!------ Include the above in your HEAD tag ---------->
 </div>
 </div>
-<footer class="section footer-classic bg-dark bg-yellow context-dark bg-image" style="background: #2d3246;">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer class="section footer-classic navbar navbar-expand-lg navbar-light bg-light bg-image" style="background: #2d3246;">
         <div class="container">
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
@@ -43,11 +44,13 @@
             </div>
           </div>
         </div>
-        <div class="row no-gutters social-container">
-          <div class="col"><a class="social-inner bg-yellow" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-          <div class="col"><a class="social-inner bg-yellow" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-          <div class="col"><a class="social-inner bg-yellow" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-          <div class="col"><a class="social-inner bg-yellow" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        <div class="social-container">
+          <div class="col"><a class="social-inner" href="#"><span><i class="fab fa-facebook-square"></i></span></a></div>
+          
+          <div class="col"><a class="social-inner bg-yellow" href="#"><span><i class="fab fa-instagram"></i></span></a></div>
+          <div class="col"><a class="social-inner bg-yellow" href="#"><span><i class="fab fa-twitter-square"></i></span></a></div>
+          <div class="col"><a class="social-inner bg-yellow" href="#"><span><i class="fab fa-google-plus-square"></i></span></a></div>
+        
         </div>
     
     <!-- Optional JavaScript -->

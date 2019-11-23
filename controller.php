@@ -163,7 +163,7 @@
             $view = "painel-adm.php";
             break;
 
-        case 'painellogoff':
+        case 'paineladmlogoff':
                 $obj = new \LOJA\API\UsuarioLogoff;
                 
                 $view = "form-adm.php";

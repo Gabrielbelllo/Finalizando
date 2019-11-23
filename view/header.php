@@ -48,11 +48,12 @@
                         </div>
                     <!-- </form> -->
                     <div class="container">
-                        <button type="button" class="btn bg-yello">Login</button>
-                        <button type="button" class="btn bg-whit">Registrar</button>
+                        <button type="button" class="btn btn-primary bg-yello" ><a href="<?php echo $url; ?>/login/cliente"><i class="fas fa-user-circle"></i>Login</a></button>
+                        
                         <a href="#" class="bg-yellow center"><i class="fas fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
+    <div class="container">
