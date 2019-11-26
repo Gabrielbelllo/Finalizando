@@ -73,6 +73,12 @@
                 
             $view = "painel-cliente.php";
             break;
+            case 'meucadastro':
+           
+                $obj = new \LOJA\API\ClienteVizualizar;
+                    
+                $view = "atulizar-dados.php";
+                break;   
     
         case 'painellogoff':
                 $obj = new \LOJA\API\ClienteLogoff;
@@ -101,6 +107,12 @@
                 $lista = $obj->lista;
                 $view = "lista-produto.php";
                 break;
+                
+                case 'testelista':
+                    $obj = new \LOJA\API\ProdutoListar;
+                    $lista = $obj->lista;
+                    $view = "teste-lista.php";
+                    break;
                 
           
             

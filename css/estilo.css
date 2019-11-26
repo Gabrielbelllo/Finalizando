@@ -17,4 +17,17 @@ color: white !important;
 .top{
   margin-top: 1% !important;
 }
-
+.linha{
+  display: inline-block ;
+  margin-left: 5%;
+}
+.direita{
+  float:right;
+}
+.direita button a{
+  text-decoration: none;
+  
+}
+div ul li{
+  text-decoration: none;
+}
