@@ -75,7 +75,7 @@
             break;
             case 'meucadastro':
            
-                $obj = new \LOJA\API\ClienteVizualizar;
+                $obj = new \LOJA\API\ClienteLogar;
                     
                 $view = "atulizar-dados.php";
                 break;   
